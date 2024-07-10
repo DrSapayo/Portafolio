@@ -114,6 +114,7 @@ body{
 
 .presentacion_imagen{
     width: 50%;
+    border-radius: 10px;
 }
 
 .presentacion_contenido_enlaces_sub{
