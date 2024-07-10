@@ -74,6 +74,14 @@ body{
     gap: 40px;
 }
 
+.presentacion_contenido_parrafo_link{
+    font-family: var(--fuente_montserrat);
+    font-size: 1.5rem;
+    gap: 40px;
+    text-decoration: none;
+    color: pink;
+}
+
 .presentacion_contenido_enlaces{
     display: flex;
     justify-content: space-between;
@@ -124,15 +132,25 @@ body{
     font-weight: 400;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1000px){
     .header{
         padding: 10%;
     }
 
     .header_menu{
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
     }
-    
+
+    .header_menu_link{
+        border: 2px;
+        border-color: white;
+        border-style: solid;
+        border-radius: 10px;
+    }
+
     .presentacion{
         flex-direction: column-reverse;
         padding: 5%;
